@@ -1,0 +1,71 @@
+.box1{
+    width:60%;
+    height:60%;
+    border:3px solid blue;
+    box-shadow: 15px 10px 10px #aaaaaa;
+    border-radius: 20px;
+    margin:20px;
+    padding:20px;
+    
+}
+.main{
+    margin:80px;
+    width:60%;
+    height:60%;
+    border:3px solid #ee07fa;
+    box-shadow:20px 15px 15px skyblue;
+    padding:20px;
+    border-radius:25px;
+    background-color: whitesmoke;
+}
+body{
+    background-image: url("game_bg.avif");
+    background-size: cover;
+}
+label{
+    color:darkblue;
+    padding:5px;
+    margin:auto;
+    font-size:22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+.main1{
+    margin:80px;
+    width:60%;
+    height:80%;
+    border:3px solid #ee07fa;
+    box-shadow:20px 15px 15px skyblue;
+    padding:20px;
+    border-radius:25px;
+    background-color: whitesmoke;
+}
+input{
+    font-size:22px;
+}
+#scoreBoard{
+    width:20%;
+    height:30%;
+    border:3px solid blue;
+    box-shadow: 15px 10px 10px skyblue;
+    border-radius: 20px;
+    margin:5px;
+    padding:5px;
+    background-color:white;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid blue;
+    background-color:white;
+     color: #333;
+    font-size: 16px;
+    border-radius: 5px;
+}
+input::placeholder {
+    color: #aaaaaa;
+}
+
+

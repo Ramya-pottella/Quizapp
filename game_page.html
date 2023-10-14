@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="game_style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+       <center>
+            <img style="width:100%; height:400px;" src="quiz.jpg">
+            <h1 style="color:fuchsia; font-size:50px; background-color:whitesmoke; border-radius: 25px; margin:10px;">Welcome Gaming  Fanatics</h1>
+            <br/>
+            <div id="scoreBoard">
+                <h1 style="color:deeppink; text-decoration: underline;">Score board</h1>
+                <h2 id="player1_Name" style="color: blue;"></h2><span id="player1_score" style="font-size:28px; color:green"></span>
+                <h2 id="player2_Name" style="color: blue;"></h2><span id="player2_score" style="font-size:28px; color:green"></span>
+            </div>
+            <div id="answer" class="box1" style="background-color: white;">
+                <br/>
+            </div>
+            <div class="main1">
+                <h1 style="color:deeppink; font-size:40px;text-decoration: underline;">Let's Start Our Quiz</h1>
+                <h2 id="pq" style="color:red;">Question Turn:</h2>
+                <h2 id="pa"style="color:green;">Answer Turn:</h2>
+            <div>
+                <label>Enter first number:</label>
+                <input type="text" id="number1" placeholder="Enter any number"/>
+            
+            </div>
+            <div>
+                <label>Enter second number:</label>
+                <input type="text" id="number2" placeholder="Enter any number"/>
+            </div>
+ 
+            <button  style="width:20%;"class="btn btn-success" onclick="send()">send</button>
+            </div>
+        </center>
+        <script src="game_page.js"></script>
+    </body>
+</html>

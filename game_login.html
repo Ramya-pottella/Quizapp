@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="game_style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="game_login.js"></script>
+
+    </head>
+    <body>
+        <center>
+            <div class="main">
+                <form>
+            <h1 style="color:blue; font-size:50px;">Game Login</h1>
+            <div class="box1">
+                <h3 style="color:#ee07fa;">Player1 Login Name Here</h3>
+                <label>User name:</label>
+                <input type="text" id="player1_Name" name="username" placeholder="Enter player1 name here"/>
+                <label for="password">Password:</label>
+                <input type="password" id="password1" name="password" placeholder="Enter your password">
+
+            </div>
+            <div class="box1">
+                <h3 style="color:#ee07fa;">Player2 Login Name Here</h3>
+                <label>User name:</label>
+                <input type="text" id="player2_Name" name="username" placeholder="Enter player2 name here"/>
+                <label for="password">Password:</label>
+                <input type="password" id="password2" name="password" placeholder="Enter your password">
+ 
+            </div>
+            <br>
+            </form>
+            <button type="button" style="width:25%;"class="btn btn-primary" onclick="userLogin()">Login</button>
+            </div>
+     </center>
+    </body>
+</html>
